@@ -154,6 +154,10 @@ Four threads are 2.7× the CLI's one-thread time (57.1 → 155.7 MB/s) and 3.1×
 
 Full tables, per-run min/max, and the hardware record are in [`benchmarks/results.md`](benchmarks/results.md) and [`benchmarks/raw.json`](benchmarks/raw.json).
 
+## How it was built
+
+I designed and directed this project and built it with AI coding agents: I set the requirements (exact token parity with tiktoken and Hugging Face on real text, a pure-Python reference to benchmark against, and published hardware details with every number), reviewed the results, and drove the fixes.
+
 ## What I learned
 
 **A merges file that starts with `#` is not a comment syntax.** GPT-2's `merges.txt` has a `#version: 0.2` header and, later, real merges whose left token is `#` (`# #`, `## ##`, …). Treating every `#` line as a comment drops eight merges. `##` then looks like an extra special token, and any text with a markdown heading silently diverges from tiktoken. The loader skips a leading `#version` line and parses everything else.
