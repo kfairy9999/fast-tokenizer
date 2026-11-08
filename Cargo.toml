@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/fast-tokenizer",
+    "crates/fast-tokenizer-cli",
+    "crates/fast-tokenizer-py",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Kevin Fairley <205349973+kfairy9999@users.noreply.github.com>"]
+
+[profile.release]
+lto = "thin"
+codegen-units = 1

@@ -1,0 +1,598 @@
+{
+  "hardware": {
+    "platform": "Linux-6.12.113+-x86_64-with-glibc2.39",
+    "processor": "Intel(R) Xeon(R) Processor",
+    "threads": 4,
+    "ram_gib": 15.63,
+    "python": "3.12.3",
+    "rustc": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+    "implementation": "CPython"
+  },
+  "versions": {
+    "fast_tokenizer": "0.1.0",
+    "tiktoken": "0.14.0",
+    "tokenizers": "0.23.3"
+  },
+  "method": {
+    "warmup": 1,
+    "repeats": 5,
+    "statistic": "median",
+    "clock": "time.perf_counter",
+    "megabyte": 1000000,
+    "chunk_target_chars": 65536,
+    "chunks": 49,
+    "special_tokens": "enabled for fast-tokenizer and tiktoken allowed_special=all; HF uses its GPT-2 model",
+    "release_profile": "lto=thin, codegen-units=1"
+  },
+  "files": [
+    {
+      "name": "pg11.txt",
+      "bytes": 174311,
+      "sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e"
+    },
+    {
+      "name": "pg1342.txt",
+      "bytes": 772386,
+      "sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75"
+    },
+    {
+      "name": "pg1661.txt",
+      "bytes": 607606,
+      "sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0"
+    },
+    {
+      "name": "pg2701.txt",
+      "bytes": 1276315,
+      "sha256": "b5e88b71a1cda068e9ab1d94344c9d932338ba6da1a66def97a1aecd9cfcc87d"
+    },
+    {
+      "name": "pg84.txt",
+      "bytes": 448885,
+      "sha256": "2b97b7f8aad508649481d8dd4f6b54f9b965ddb3ba634e9151c815f537b49e42"
+    },
+    {
+      "name": "combined",
+      "bytes": 3279503,
+      "sha256": "a84476e35b8632355b08ccb92e7d6d1e8e65d7a7d119772fb385156286256f84"
+    }
+  ],
+  "single_document": [
+    {
+      "name": "fast-tokenizer",
+      "mode": "single document",
+      "bytes": 174311,
+      "tokens": 52948,
+      "median_s": 0.004489338999974279,
+      "min_s": 0.00427252800000133,
+      "max_s": 0.006184479999774339,
+      "mb_s": 38.82776506764107,
+      "tokens_s": 11794163.907048088,
+      "corpus": "pg11.txt",
+      "color": "#B7410E"
+    },
+    {
+      "name": "pure Python",
+      "mode": "single document",
+      "bytes": 174311,
+      "tokens": 52948,
+      "median_s": 0.056014531000073475,
+      "min_s": 0.0556900950000454,
+      "max_s": 0.07090795300018726,
+      "mb_s": 3.1118889489545376,
+      "tokens_s": 945254.7232776178,
+      "corpus": "pg11.txt",
+      "color": "#8E8E8E"
+    },
+    {
+      "name": "tiktoken",
+      "mode": "single document",
+      "bytes": 174311,
+      "tokens": 52948,
+      "median_s": 0.009883833000003506,
+      "min_s": 0.009577951000210305,
+      "max_s": 0.010122658999989653,
+      "mb_s": 17.635971793527688,
+      "tokens_s": 5357031.022274579,
+      "corpus": "pg11.txt",
+      "color": "#1F6F5B"
+    },
+    {
+      "name": "HF tokenizers",
+      "mode": "single document",
+      "bytes": 174311,
+      "tokens": 52948,
+      "median_s": 0.0502980410001328,
+      "min_s": 0.04928525700006503,
+      "max_s": 0.05384726400006912,
+      "mb_s": 3.465562406288145,
+      "tokens_s": 1052685.1334003287,
+      "corpus": "pg11.txt",
+      "color": "#3D5A80"
+    },
+    {
+      "name": "fast-tokenizer",
+      "mode": "single document",
+      "bytes": 772386,
+      "tokens": 211562,
+      "median_s": 0.01650540299988279,
+      "min_s": 0.015393100999972376,
+      "max_s": 0.018351713999891217,
+      "mb_s": 46.79594918133686,
+      "tokens_s": 12817742.166095695,
+      "corpus": "pg1342.txt",
+      "color": "#B7410E"
+    },
+    {
+      "name": "pure Python",
+      "mode": "single document",
+      "bytes": 772386,
+      "tokens": 211562,
+      "median_s": 0.2450167820002207,
+      "min_s": 0.21344844400027796,
+      "max_s": 0.2558648979997997,
+      "mb_s": 3.152379986768842,
+      "tokens_s": 863459.2221516053,
+      "corpus": "pg1342.txt",
+      "color": "#8E8E8E"
+    },
+    {
+      "name": "tiktoken",
+      "mode": "single document",
+      "bytes": 772386,
+      "tokens": 211562,
+      "median_s": 0.038703337000242755,
+      "min_s": 0.03778441300028135,
+      "max_s": 0.03922135499988144,
+      "mb_s": 19.95657377024507,
+      "tokens_s": 5466247.00600553,
+      "corpus": "pg1342.txt",
+      "color": "#1F6F5B"
+    },
+    {
+      "name": "HF tokenizers",
+      "mode": "single document",
+      "bytes": 772386,
+      "tokens": 211562,
+      "median_s": 0.265849512999921,
+      "min_s": 0.2576480890002131,
+      "max_s": 0.2721453650001422,
+      "mb_s": 2.90535044162458,
+      "tokens_s": 795796.0788141931,
+      "corpus": "pg1342.txt",
+      "color": "#3D5A80"
+    },
+    {
+      "name": "fast-tokenizer",
+      "mode": "single document",
+      "bytes": 607606,
+      "tokens": 172125,
+      "median_s": 0.012853219000135141,
+      "min_s": 0.012595018000411073,
+      "max_s": 0.013094539000121586,
+      "mb_s": 47.272671538049075,
+      "tokens_s": 13391586.963405062,
+      "corpus": "pg1661.txt",
+      "color": "#B7410E"
+    },
+    {
+      "name": "pure Python",
+      "mode": "single document",
+      "bytes": 607606,
+      "tokens": 172125,
+      "median_s": 0.1777293169998302,
+      "min_s": 0.17728088900003058,
+      "max_s": 0.17838853500006735,
+      "mb_s": 3.4187156641162386,
+      "tokens_s": 968467.1212693878,
+      "corpus": "pg1661.txt",
+      "color": "#8E8E8E"
+    },
+    {
+      "name": "tiktoken",
+      "mode": "single document",
+      "bytes": 607606,
+      "tokens": 172125,
+      "median_s": 0.031010581999908027,
+      "min_s": 0.030467967999811663,
+      "max_s": 0.03137888599985672,
+      "mb_s": 19.593505210634294,
+      "tokens_s": 5550524.6564063355,
+      "corpus": "pg1661.txt",
+      "color": "#1F6F5B"
+    },
+    {
+      "name": "HF tokenizers",
+      "mode": "single document",
+      "bytes": 607606,
+      "tokens": 172125,
+      "median_s": 0.19253716000002896,
+      "min_s": 0.19161473099984505,
+      "max_s": 0.1975535179999497,
+      "mb_s": 3.15578561561783,
+      "tokens_s": 893983.2705539757,
+      "corpus": "pg1661.txt",
+      "color": "#3D5A80"
+    },
+    {
+      "name": "fast-tokenizer",
+      "mode": "single document",
+      "bytes": 1276315,
+      "tokens": 354334,
+      "median_s": 0.029712659000324493,
+      "min_s": 0.026718374000211043,
+      "max_s": 0.03116513099985241,
+      "mb_s": 42.95526024735993,
+      "tokens_s": 11925354.778787395,
+      "corpus": "pg2701.txt",
+      "color": "#B7410E"
+    },
+    {
+      "name": "pure Python",
+      "mode": "single document",
+      "bytes": 1276315,
+      "tokens": 354334,
+      "median_s": 0.38732195000011416,
+      "min_s": 0.38500622800029305,
+      "max_s": 0.4277028579999751,
+      "mb_s": 3.2952302341750164,
+      "tokens_s": 914830.6725190647,
+      "corpus": "pg2701.txt",
+      "color": "#8E8E8E"
+    },
+    {
+      "name": "tiktoken",
+      "mode": "single document",
+      "bytes": 1276315,
+      "tokens": 354334,
+      "median_s": 0.0721595069999239,
+      "min_s": 0.0676380979998612,
+      "max_s": 0.08095307599978696,
+      "mb_s": 17.687412969733092,
+      "tokens_s": 4910427.11808402,
+      "corpus": "pg2701.txt",
+      "color": "#1F6F5B"
+    },
+    {
+      "name": "HF tokenizers",
+      "mode": "single document",
+      "bytes": 1276315,
+      "tokens": 354334,
+      "median_s": 0.48322504499992647,
+      "min_s": 0.4822134279997954,
+      "max_s": 0.551574255000105,
+      "mb_s": 2.6412434810786642,
+      "tokens_s": 733269.1127382562,
+      "corpus": "pg2701.txt",
+      "color": "#3D5A80"
+    },
+    {
+      "name": "fast-tokenizer",
+      "mode": "single document",
+      "bytes": 448885,
+      "tokens": 114211,
+      "median_s": 0.010270481000134168,
+      "min_s": 0.009940096999798698,
+      "max_s": 0.010424035000141885,
+      "mb_s": 43.70632689882159,
+      "tokens_s": 11120316.565359306,
+      "corpus": "pg84.txt",
+      "color": "#B7410E"
+    },
+    {
+      "name": "pure Python",
+      "mode": "single document",
+      "bytes": 448885,
+      "tokens": 114211,
+      "median_s": 0.13561338899990005,
+      "min_s": 0.13462182400007805,
+      "max_s": 0.1776094780002495,
+      "mb_s": 3.310034527640415,
+      "tokens_s": 842180.8557566847,
+      "corpus": "pg84.txt",
+      "color": "#8E8E8E"
+    },
+    {
+      "name": "tiktoken",
+      "mode": "single document",
+      "bytes": 448885,
+      "tokens": 114211,
+      "median_s": 0.02166199900011634,
+      "min_s": 0.021477663000041503,
+      "max_s": 0.021998904000156472,
+      "mb_s": 20.72223343734755,
+      "tokens_s": 5272412.762985845,
+      "corpus": "pg84.txt",
+      "color": "#1F6F5B"
+    },
+    {
+      "name": "HF tokenizers",
+      "mode": "single document",
+      "bytes": 448885,
+      "tokens": 114211,
+      "median_s": 0.12768673899972782,
+      "min_s": 0.12722325100003218,
+      "max_s": 0.12841952600001605,
+      "mb_s": 3.5155177704158995,
+      "tokens_s": 894462.5017030425,
+      "corpus": "pg84.txt",
+      "color": "#3D5A80"
+    },
+    {
+      "name": "fast-tokenizer",
+      "mode": "single document",
+      "bytes": 3279503,
+      "tokens": 905180,
+      "median_s": 0.06753722399980688,
+      "min_s": 0.06339313599983143,
+      "max_s": 0.07019414800015511,
+      "mb_s": 48.55845126251232,
+      "tokens_s": 13402682.94122643,
+      "corpus": "combined",
+      "color": "#B7410E"
+    },
+    {
+      "name": "pure Python",
+      "mode": "single document",
+      "bytes": 3279503,
+      "tokens": 905180,
+      "median_s": 0.9018269260000125,
+      "min_s": 0.8891517560000466,
+      "max_s": 0.9385074560000248,
+      "mb_s": 3.636510405101782,
+      "tokens_s": 1003718.0903600426,
+      "corpus": "combined",
+      "color": "#8E8E8E"
+    },
+    {
+      "name": "tiktoken",
+      "mode": "single document",
+      "bytes": 3279503,
+      "tokens": 905180,
+      "median_s": 0.16727666099995986,
+      "min_s": 0.16347413600033178,
+      "max_s": 0.17285530800018023,
+      "mb_s": 19.605263402530415,
+      "tokens_s": 5411274.917785555,
+      "corpus": "combined",
+      "color": "#1F6F5B"
+    },
+    {
+      "name": "HF tokenizers",
+      "mode": "single document",
+      "bytes": 3279503,
+      "tokens": 905180,
+      "median_s": 1.4664383099998304,
+      "min_s": 1.4447364409998045,
+      "max_s": 1.4852255920000061,
+      "mb_s": 2.236372970916437,
+      "tokens_s": 617264.2884650938,
+      "corpus": "combined",
+      "color": "#3D5A80"
+    }
+  ],
+  "batch": [
+    {
+      "name": "pure Python",
+      "mode": "batch, 1 thread, 49 chunks",
+      "bytes": 3279503,
+      "tokens": 905180,
+      "median_s": 1.3631428789999518,
+      "min_s": 1.3509193199997753,
+      "max_s": 1.4047714700000142,
+      "mb_s": 2.405839512880671,
+      "tokens_s": 664038.9748901972,
+      "color": "#8E8E8E",
+      "corpus": "combined"
+    },
+    {
+      "name": "HF tokenizers",
+      "mode": "encode_batch, 49 chunks",
+      "bytes": 3279503,
+      "tokens": 905180,
+      "median_s": 0.3356644499999675,
+      "min_s": 0.3176484180003172,
+      "max_s": 0.35713447099988116,
+      "mb_s": 9.7701826928658,
+      "tokens_s": 2696681.164776573,
+      "color": "#3D5A80",
+      "corpus": "combined"
+    },
+    {
+      "name": "tiktoken",
+      "mode": "encode_ordinary_batch, 49 chunks",
+      "bytes": 3279503,
+      "tokens": 905180,
+      "median_s": 0.07948594000026787,
+      "min_s": 0.07000908600002731,
+      "max_s": 0.08300747700013744,
+      "mb_s": 41.258906921009526,
+      "tokens_s": 11387925.965232965,
+      "color": "#1F6F5B",
+      "corpus": "combined"
+    },
+    {
+      "name": "fast-tokenizer 1 thread",
+      "mode": "batch, 1 thread, 49 chunks",
+      "bytes": 3279503,
+      "tokens": 905180,
+      "median_s": 0.11304929500010985,
+      "min_s": 0.10761853400026666,
+      "max_s": 0.11877663499990376,
+      "mb_s": 29.009495370995577,
+      "tokens_s": 8006949.534706257,
+      "color": "#C4A484",
+      "corpus": "combined"
+    },
+    {
+      "name": "fast-tokenizer 4 threads",
+      "mode": "rayon batch, 4 threads, 49 chunks",
+      "bytes": 3279503,
+      "tokens": 905180,
+      "median_s": 0.03688423099993088,
+      "min_s": 0.03035168699989299,
+      "max_s": 0.0420838819995879,
+      "mb_s": 88.9134166849282,
+      "tokens_s": 24541110.806992188,
+      "color": "#B7410E",
+      "corpus": "combined"
+    }
+  ],
+  "rust_core": {
+    "hardware": "hardware: Intel(R) Xeon(R) Processor | 4 threads | 15.6 GiB RAM",
+    "vocab_size": 50257,
+    "merges": 50000,
+    "warmup": 1,
+    "repeats": 5,
+    "threads": 4,
+    "rows": [
+      {
+        "corpus": "pg11.txt",
+        "mode": "single-thread",
+        "bytes": 174311,
+        "tokens": 52948,
+        "median_s": 0.002965657,
+        "mb_s": 58.77652068327524,
+        "tokens_s": 17853716.731233586,
+        "chunks": 1
+      },
+      {
+        "corpus": "pg11.txt",
+        "mode": "rayon batch (4 threads, 3 chunks)",
+        "bytes": 174311,
+        "tokens": 52948,
+        "median_s": 0.001563213,
+        "mb_s": 111.50815659798121,
+        "tokens_s": 33871263.864873186,
+        "chunks": 3
+      },
+      {
+        "corpus": "pg1342.txt",
+        "mode": "single-thread",
+        "bytes": 772386,
+        "tokens": 211562,
+        "median_s": 0.010961522,
+        "mb_s": 70.46339002923133,
+        "tokens_s": 19300421.96694948,
+        "chunks": 1
+      },
+      {
+        "corpus": "pg1342.txt",
+        "mode": "rayon batch (4 threads, 12 chunks)",
+        "bytes": 772386,
+        "tokens": 211562,
+        "median_s": 0.004839687,
+        "mb_s": 159.5942051624413,
+        "tokens_s": 43713983.98284848,
+        "chunks": 12
+      },
+      {
+        "corpus": "pg1661.txt",
+        "mode": "single-thread",
+        "bytes": 607606,
+        "tokens": 172125,
+        "median_s": 0.009635072,
+        "mb_s": 63.06190550522093,
+        "tokens_s": 17864422.808672316,
+        "chunks": 1
+      },
+      {
+        "corpus": "pg1661.txt",
+        "mode": "rayon batch (4 threads, 10 chunks)",
+        "bytes": 607606,
+        "tokens": 172125,
+        "median_s": 0.00454114,
+        "mb_s": 133.80032326684488,
+        "tokens_s": 37903477.98129985,
+        "chunks": 10
+      },
+      {
+        "corpus": "pg2701.txt",
+        "mode": "single-thread",
+        "bytes": 1276315,
+        "tokens": 354334,
+        "median_s": 0.021607841,
+        "mb_s": 59.067215461276305,
+        "tokens_s": 16398399.081148367,
+        "chunks": 1
+      },
+      {
+        "corpus": "pg2701.txt",
+        "mode": "rayon batch (4 threads, 20 chunks)",
+        "bytes": 1276315,
+        "tokens": 354334,
+        "median_s": 0.009199432,
+        "mb_s": 138.73845689603445,
+        "tokens_s": 38516943.21997271,
+        "chunks": 20
+      },
+      {
+        "corpus": "pg84.txt",
+        "mode": "single-thread",
+        "bytes": 448885,
+        "tokens": 114211,
+        "median_s": 0.007718305,
+        "mb_s": 58.15849464357783,
+        "tokens_s": 14797419.899835521,
+        "chunks": 1
+      },
+      {
+        "corpus": "pg84.txt",
+        "mode": "rayon batch (4 threads, 7 chunks)",
+        "bytes": 448885,
+        "tokens": 114211,
+        "median_s": 0.003730266,
+        "mb_s": 120.33592242483512,
+        "tokens_s": 30617387.607210856,
+        "chunks": 7
+      },
+      {
+        "corpus": "combined",
+        "mode": "single-thread",
+        "bytes": 3279503,
+        "tokens": 905180,
+        "median_s": 0.057431136,
+        "mb_s": 57.103223589378416,
+        "tokens_s": 15761136.955396459,
+        "chunks": 1
+      },
+      {
+        "corpus": "combined",
+        "mode": "rayon batch (4 threads, 50 chunks)",
+        "bytes": 3279503,
+        "tokens": 905180,
+        "median_s": 0.021063037,
+        "mb_s": 155.69943688557353,
+        "tokens_s": 42974809.37815378,
+        "chunks": 50
+      }
+    ]
+  },
+  "parity": {
+    "fast_tokenizer": {
+      "self_check_vs_reference": {
+        "match": true,
+        "tokens": 905180,
+        "mismatches": 0,
+        "rate": 1.0
+      },
+      "vs_tiktoken": {
+        "match": true,
+        "tokens": 905180,
+        "mismatches": 0,
+        "rate": 1.0
+      }
+    },
+    "reference": {
+      "match": true,
+      "tokens": 905180,
+      "mismatches": 0,
+      "rate": 1.0
+    },
+    "tokenizers": {
+      "match": true,
+      "tokens": 905180,
+      "mismatches": 0,
+      "rate": 1.0
+    }
+  }
+}

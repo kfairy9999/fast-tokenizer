@@ -1,0 +1,600 @@
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.
+The byte-level tokenizer learns merges from repeated text.
+low low low low wider wider wider the cat sat on the mat.
+it's a fine day's work, and you're sure I'll finish.
+don't stop at the 19th try — café naïve 東京 😀.
+hello  world
+hello
+
+world
+#### tags and ## marks
+<|endoftext|>
+aaaa bbbb ab
+cd
+tab	here and a non-breaking space.
+combining á and a line
+break.

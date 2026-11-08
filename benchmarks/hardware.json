@@ -1,0 +1,16 @@
+{
+  "hardware": {
+    "platform": "Linux-6.12.113+-x86_64-with-glibc2.39",
+    "processor": "Intel(R) Xeon(R) Processor",
+    "threads": 4,
+    "ram_gib": 15.63,
+    "python": "3.12.3",
+    "rustc": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+    "implementation": "CPython"
+  },
+  "versions": {
+    "fast_tokenizer": "0.1.0",
+    "tiktoken": "0.14.0",
+    "tokenizers": "0.23.3"
+  }
+}

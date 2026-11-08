@@ -1,0 +1,31 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "fast-tokenizer"
+version = "0.1.0"
+description = "Fast byte-level BPE tokenizer with a Rust core and a pure-Python reference"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [{ name = "Kevin Fairley" }]
+keywords = ["bpe", "tokenizer", "gpt-2", "nlp", "rust"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Rust",
+    "Topic :: Text Processing",
+]
+
+[project.optional-dependencies]
+bench = ["tiktoken>=0.7", "tokenizers>=0.20", "matplotlib>=3.8"]
+test = ["pytest>=8", "tiktoken>=0.7", "regex>=2024.0"]
+
+[tool.maturin]
+manifest-path = "crates/fast-tokenizer-py/Cargo.toml"
+module-name = "fast_tokenizer"
+
+[tool.pytest.ini_options]
+testpaths = ["python/tests"]
+pythonpath = ["python"]

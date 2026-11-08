@@ -1,0 +1,16 @@
+[package]
+name = "fast-tokenizer-py"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Python bindings for the fast byte-level BPE tokenizer"
+publish = false
+
+[lib]
+name = "fast_tokenizer"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+bpe = { package = "fast-tokenizer", path = "../fast-tokenizer" }
+pyo3 = { version = "0.23", features = ["extension-module", "abi3-py310"] }
