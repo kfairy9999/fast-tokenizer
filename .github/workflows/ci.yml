@@ -33,8 +33,11 @@ jobs:
           python-version: "3.12"
       - name: Install
         run: |
+          python -m venv .venv
+          . .venv/bin/activate
           python -m pip install -U pip
           python -m pip install maturin pytest tiktoken regex
           maturin develop --release
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
       - name: Test
-        run: pytest -q
+        run: python -m pytest -q
