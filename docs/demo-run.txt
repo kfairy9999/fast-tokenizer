@@ -1,0 +1,32 @@
+$ fast-tokenizer encode --model data/gpt2 --text "hello world"
+[31373,995]
+
+$ fast-tokenizer train --input data/sample.txt --vocab-size 800 --special "<|endoftext|>" --output /tmp/demo-model
+trained vocab_size=420 merges=163 specials=1 in 0.00s (stopped at merge 163) -> /tmp/demo-model
+
+$ fast-tokenizer encode --model /tmp/demo-model --text "hello <|endoftext|> world" > /tmp/ids.json && cat /tmp/ids.json
+[292,220,419,375]
+
+$ fast-tokenizer decode --model /tmp/demo-model --file /tmp/ids.json
+hello <|endoftext|> world
+
+$ fast-tokenizer bench --model data/gpt2 --corpus data/corpora --threads 4
+# fast-tokenizer bench
+
+hardware: Intel(R) Xeon(R) Processor | 8 threads | 15.6 GiB RAM
+model vocab_size=50257 merges=50000 | warmup=1 repeats=5 | batch threads=4 | median of wall time | MB/s uses 1e6 bytes
+
+| corpus | mode | bytes | tokens | median s | MB/s | tokens/s |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| pg11.txt | single-thread | 174311 | 52948 | 0.003393 | 51.38 | 15606348 |
+| pg11.txt | rayon batch (4 threads, 3 chunks) | 174311 | 52948 | 0.001925 | 90.55 | 27504497 |
+| pg1342.txt | single-thread | 772386 | 211562 | 0.014171 | 54.50 | 14929191 |
+| pg1342.txt | rayon batch (4 threads, 12 chunks) | 772386 | 211562 | 0.006761 | 114.25 | 31293427 |
+| pg1661.txt | single-thread | 607606 | 172125 | 0.012766 | 47.59 | 13482791 |
+| pg1661.txt | rayon batch (4 threads, 10 chunks) | 607606 | 172125 | 0.005230 | 116.17 | 32910266 |
+| pg2701.txt | single-thread | 1276315 | 354334 | 0.023886 | 53.43 | 14834168 |
+| pg2701.txt | rayon batch (4 threads, 20 chunks) | 1276315 | 354334 | 0.010167 | 125.53 | 34850734 |
+| pg84.txt | single-thread | 448885 | 114211 | 0.008119 | 55.29 | 14066570 |
+| pg84.txt | rayon batch (4 threads, 7 chunks) | 448885 | 114211 | 0.003702 | 121.26 | 30851787 |
+| combined | single-thread | 3279503 | 905180 | 0.076340 | 42.96 | 11857256 |
+| combined | rayon batch (4 threads, 50 chunks) | 3279503 | 905180 | 0.023210 | 141.30 | 38999315 |

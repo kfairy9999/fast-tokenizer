@@ -9,6 +9,14 @@ Byte-level BPE in Rust, with a Python extension and a pure-Python reference that
 
 This is a portfolio project by Kevin Fairley, aimed at agentic-AI and ML engineering roles. The interesting part is the engineering around a known algorithm: a pretokenizer that matches the GPT-2 regex, a merge loop whose priority is the line order in `merges.txt`, a trainer with a documented tie-break, and a benchmark that reports only numbers measured on this machine.
 
+## See it run
+
+No install needed to see it work. This is a real terminal run of the release CLI, recorded November 10, 2026: encode with the bundled GPT-2 files, train a tiny model, round-trip a special token, then `bench` on the five books. [Plain-text copy](docs/demo-run.txt).
+
+![Terminal run of fast-tokenizer: encode "hello world" to [31373, 995], train a small model, round-trip a special token, then the benchmark table.](docs/demo-run.png)
+
+That re-run was on a busier, shared 8-thread VM, so it lands below the tables further down: 42.96 MB/s single-thread (table: 57.10) and 141.30 MB/s on 4 threads (table: 155.70). The same day, from Python, the extension encoded the combined corpus at 37–38 MB/s against tiktoken's 17–18 MB/s, about 2.1–2.2× (the original run below measured 2.5×). Token parity with tiktoken was exact on all 905,180 tokens both times. Expect this kind of run-to-run spread on shared hardware.
+
 ## Architecture
 
 ```mermaid
